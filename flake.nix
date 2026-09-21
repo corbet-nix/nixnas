@@ -37,7 +37,7 @@
     # mechanism-lives-in-its-own-flake split nixnas already uses for the
     # kernel and the boot chain.
     nixram = {
-      url = "github:julian-corbet/nixram-corbet-ch";
+      url = "github:corbet-nix/nixram-corbet-ch";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -49,7 +49,7 @@
     # modules/boot/nixboot.nix is the bridge that reads `nixnas.boot.*` and
     # `nixnas.admin.authorizedKeys` and writes nixboot's own `nixboot.*` options.
     nixboot = {
-      url = "github:julian-corbet/nixboot-corbet-ch";
+      url = "github:corbet-nix/nixboot-corbet-ch";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -65,7 +65,7 @@
     # and which a co-declaring consumer must leave alone (`order`). Same
     # mechanism-lives-in-its-own-flake split as nixram/nixboot above.
     nixluks = {
-      url = "github:julian-corbet/nixluks-corbet-ch";
+      url = "github:corbet-nix/nixluks-corbet-ch";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -76,7 +76,7 @@
     # no reason to install (nixnas already knows exactly which filesystem tools it needs and
     # installs them itself).
     nixfs = {
-      url = "github:julian-corbet/nixfs-corbet-ch";
+      url = "github:corbet-nix/nixfs-corbet-ch";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };

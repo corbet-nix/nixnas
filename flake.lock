@@ -423,13 +423,13 @@
       "locked": {
         "lastModified": 1786711746,
         "narHash": "sha256-rtGi9ddTHW3BMiV8r5BObVU+VrAwY5XlGtIQ55fy5Lw=",
-        "owner": "julian-corbet",
+        "owner": "corbet-nix",
         "repo": "nixboot-corbet-ch",
         "rev": "a2c48d7020e8311f9aa174bb865500452880f1a7",
         "type": "github"
       },
       "original": {
-        "owner": "julian-corbet",
+        "owner": "corbet-nix",
         "repo": "nixboot-corbet-ch",
         "type": "github"
       }
@@ -444,13 +444,13 @@
       "locked": {
         "lastModified": 1785410351,
         "narHash": "sha256-3zhPu4P4vP/9yFj9duVh+BpZtX/xcyf935R1ZDltFA4=",
-        "owner": "julian-corbet",
+        "owner": "corbet-nix",
         "repo": "nixfs-corbet-ch",
         "rev": "535d7db1fd03207b7742dd20afeadf51e01f1726",
         "type": "github"
       },
       "original": {
-        "owner": "julian-corbet",
+        "owner": "corbet-nix",
         "repo": "nixfs-corbet-ch",
         "type": "github"
       }
@@ -465,13 +465,13 @@
       "locked": {
         "lastModified": 1785472111,
         "narHash": "sha256-ip14+/bto07PKWkZnmi9C6qbd6DZVMkt0DDwgV1b/yY=",
-        "owner": "julian-corbet",
+        "owner": "corbet-nix",
         "repo": "nixluks-corbet-ch",
         "rev": "e17648044b5d53ea0c491a0331c56e51b36f1c9f",
         "type": "github"
       },
       "original": {
-        "owner": "julian-corbet",
+        "owner": "corbet-nix",
         "repo": "nixluks-corbet-ch",
         "type": "github"
       }
@@ -565,13 +565,13 @@
       "locked": {
         "lastModified": 1785142918,
         "narHash": "sha256-6UO18SdP5eUujsGkEsiksHQ/W/lT4jAh8tI80HeeT2c=",
-        "owner": "julian-corbet",
+        "owner": "corbet-nix",
         "repo": "nixram-corbet-ch",
         "rev": "20372ba23e7e13e27a2f1f11089ebd6c0accfaac",
         "type": "github"
       },
       "original": {
-        "owner": "julian-corbet",
+        "owner": "corbet-nix",
         "repo": "nixram-corbet-ch",
         "type": "github"
       }
