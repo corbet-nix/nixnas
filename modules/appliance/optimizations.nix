@@ -73,7 +73,7 @@ in
       # guess rather than silently tune a 128 GiB box as if it were 4 GiB.
       # Every nixnas host must declare it once:
       #
-      #     nix run github:julian-corbet/nixram-corbet-ch#detect-level
+      #     nix run github:corbet-nix/nixram-corbet-ch#detect-level
       #     nixram.level = "...";   # paste the printed line
       #
       # An operator who skips it gets nixram's own assertion, naming that

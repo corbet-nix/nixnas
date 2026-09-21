@@ -15,7 +15,7 @@ built by CI (the zero-secrets host that IS built lives in `hosts/demo/`).
 | | |
 |---|---|
 | **This repo (public)** | the appliance *mechanism* + these *examples*. No real device-ids, keys, or topology. |
-| **Your repo (private)** | your real host config — the actual `host.nix` with your disks, keys, pools, and workloads. Scaffold it with `nix flake init -t github:julian-corbet/nixnas#host`. |
+| **Your repo (private)** | your real host config — the actual `host.nix` with your disks, keys, pools, and workloads. Scaffold it with `nix flake init -t github:corbet-nix/nixnas#host`. |
 
 The one thing to keep straight: the USB stick only holds the OS (loaded into RAM). Container
 images, databases, media, and service state all get directed onto your **pools** — never the

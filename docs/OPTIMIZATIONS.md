@@ -114,7 +114,7 @@ Set on `fileSystems."/nix".options` alongside the fixed `compress_algorithm=zstd
   nixnas targets boxes strong enough to build themselves (a nixnas box is typically the *hub*
   that builds for weaker machines) — so on-box building is sanctioned; a cache is an
   optimisation, not a doctrine, here.
-- ⬢ **The memory subsystem belongs to [nixram](https://github.com/julian-corbet/nixram-corbet-ch),
+- ⬢ **The memory subsystem belongs to [nixram](https://github.com/corbet-nix/nixram-corbet-ch),
   not to nixnas.** nixnas composes it (`nixosModules.nixnas` pulls in `nixram.nixosModules.nixram`)
   and sets only `nixram.enable = true` + `mode = "zram"` — the latter forced by
   `swapDevices = [ ]`, since zswap is a cache in *front* of a durable swap device and there is none.
@@ -122,7 +122,7 @@ Set on `fileSystems."/nix".options` alongside the fixed `compress_algorithm=zstd
   `/proc/meminfo`:
 
   ```
-  nix run github:julian-corbet/nixram-corbet-ch#detect-level
+  nix run github:corbet-nix/nixram-corbet-ch#detect-level
   nixram.level = "…";   # paste the printed line
   ```
 

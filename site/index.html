@@ -23,8 +23,8 @@
     <a href="/" class="nav-brand">nixnas</a>
     <div class="nav-links">
       <a href="#how">How it works</a>
-      <a href="https://github.com/julian-corbet/nixnas/blob/main/docs/ARCHITECTURE.md">Architecture</a>
-      <a href="https://github.com/julian-corbet/nixnas">GitHub</a>
+      <a href="https://github.com/corbet-nix/nixnas/blob/main/docs/ARCHITECTURE.md">Architecture</a>
+      <a href="https://github.com/corbet-nix/nixnas">GitHub</a>
       <!-- nix* family dropdown — CANONICAL SNIPPET (source of truth).
            Copy this <details> block as the LAST child of a member page's
            .nav-links, and set aria-current="page" on that page's own entry.
@@ -58,7 +58,7 @@
     <p class="tagline">Your declarative NixOS &mdash; secure, RAM-resident, on a USB stick</p>
     <p class="subtitle">nixnas packages <em>your own</em> NixOS config into a USB-bootable appliance: it runs from RAM, locks the boot chain end to end, self-updates with rollback, and connects to the storage you already have. You bring the declarative config &mdash; a local TUI writes your signed image.</p>
     <div class="cta">
-      <a href="https://github.com/julian-corbet/nixnas" class="btn btn-primary">View on GitHub</a>
+      <a href="https://github.com/corbet-nix/nixnas" class="btn btn-primary">View on GitHub</a>
       <a href="#how" class="btn btn-secondary">How it works</a>
     </div>
   </div>
@@ -203,7 +203,7 @@ box login: _</code></pre>
       <div class="install-method">
         <h3>Scaffold your host</h3>
         <p>nixnas is the public core; your real disks, keys and config live in your own flake that imports it:</p>
-        <pre><code>nix flake init -t github:julian-corbet/nixnas#host</code></pre>
+        <pre><code>nix flake init -t github:corbet-nix/nixnas#host</code></pre>
         <p>Fill in your <code>nixnas.*</code> values in <code>host.nix</code> &mdash; storage, SSH keys, the USB device &mdash; and add whatever else you run as normal NixOS.</p>
       </div>
       <div class="install-method">
@@ -219,7 +219,7 @@ box login: _</code></pre>
       </div>
     </div>
     <div class="status-note">
-      <p><strong>Status.</strong> The passphrase-only LUKS image, TPM-gated initrd SSH identity, rollback, and update paths are VM-tested. Real-hardware gates remain: owner-key Secure Boot enrollment, firmware setup-password enforcement, TPM credential bootstrap, and physical main/rescue boots. Signed-version anti-rollback is not claimed. See the <a href="https://github.com/julian-corbet/nixnas/blob/main/docs/ARCHITECTURE.md">architecture notes</a>.</p>
+      <p><strong>Status.</strong> The passphrase-only LUKS image, TPM-gated initrd SSH identity, rollback, and update paths are VM-tested. Real-hardware gates remain: owner-key Secure Boot enrollment, firmware setup-password enforcement, TPM credential bootstrap, and physical main/rescue boots. Signed-version anti-rollback is not claimed. See the <a href="https://github.com/corbet-nix/nixnas/blob/main/docs/ARCHITECTURE.md">architecture notes</a>.</p>
     </div>
   </div>
 </section>
@@ -229,13 +229,13 @@ box login: _</code></pre>
 <footer>
   <div class="container">
     <div class="footer-links">
-      <a href="https://github.com/julian-corbet/nixnas">Source</a>
-      <a href="https://github.com/julian-corbet/nixnas/tree/main/docs">Docs</a>
-      <a href="https://github.com/julian-corbet/nixnas/issues">Issues</a>
+      <a href="https://github.com/corbet-nix/nixnas">Source</a>
+      <a href="https://github.com/corbet-nix/nixnas/tree/main/docs">Docs</a>
+      <a href="https://github.com/corbet-nix/nixnas/issues">Issues</a>
     </div>
     <p>
-      <a href="https://github.com/julian-corbet/nixnas/blob/main/LICENSE">Apache-2.0</a> &middot;
-      <a href="https://github.com/julian-corbet">Julian Corbet</a> &middot;
+      <a href="https://github.com/corbet-nix/nixnas/blob/main/LICENSE">Apache-2.0</a> &middot;
+      <a href="https://github.com/corbet-nix">Julian Corbet</a> &middot;
       Built on <a href="https://nixos.org">NixOS</a> · <a href="https://github.com/nix-community/lanzaboote">lanzaboote</a> · CachyOS
     </p>
   </div>
